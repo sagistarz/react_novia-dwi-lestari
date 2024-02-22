@@ -1,0 +1,1 @@
+kesimpulan dari pelatihan dan pembelajaran yang dilakukan boleh dari video atau dari mentor (5w+1h)
