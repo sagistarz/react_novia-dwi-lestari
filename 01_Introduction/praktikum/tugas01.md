@@ -30,7 +30,7 @@ Javascript, HTML dan CSS
 - CSS Architecture
 - CSS Preprocessors
 
-!(https://roadmap.sh/frontend)
+
 source : https://roadmap.sh/frontend
 
 2. Apa version control yang akan kalian pelajari pada course kali ini ?
