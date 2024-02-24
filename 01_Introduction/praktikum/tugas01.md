@@ -30,8 +30,7 @@ Javascript, HTML dan CSS
 - CSS Architecture
 - CSS Preprocessors
 
-
-source : https://roadmap.sh/frontend
+![source : https://roadmap.sh/frontend](https://github.com/sagistarz/react_novia-dwi-lestari/blob/main/01_Introduction/screenshoot/roadmap_fe.jpg)
 
 2. Apa version control yang akan kalian pelajari pada course kali ini ?
 - Git
