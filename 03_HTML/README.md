@@ -52,7 +52,7 @@ ada 2 jenis list :
 1. ordered list </ol>
 2. unordered list </ul>
 
-tiap item pada <ol> atau <ul> itu digunain tag <li> dulu sebelumnya
+tiap item pada </ol> atau </ul> itu digunain tag </li> dulu sebelumnya
 
 - table
 - </table> : bikin table pada HTML
