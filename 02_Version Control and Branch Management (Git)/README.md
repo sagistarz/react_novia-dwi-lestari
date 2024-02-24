@@ -124,7 +124,9 @@ command : git push -u origin developer
 origin : nama branch yang terhubung
 developer : new branch nya
 
-git checkout main -> balik ke branch main/git branch status
+## pindah branch
+git checkout main -> balik ke branch main   
+git switch main -> balik ke branch main
 
 # git merge
 ## start a new feature
