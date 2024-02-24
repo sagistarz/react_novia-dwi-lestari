@@ -24,17 +24,17 @@ HTML (Hypertext Markup  Language) : standar yang digunakan secara luas untuk men
 
 ## Syntax HTML
 HTML selalu menggunakan tag untuk membangun website
-- <!DOCTYPE html> : mendefinisikan dokumen ini sebagai HTML5
-- <html> : elemen root dari halaman HTML
-- <head> : berisi informasi meta tentang dokumen
-- <title> : menentukan judul untuk dokumen di browser
-- <body> : berisi konten halaman yang terlihat di browser
+- </!DOCTYPE html> : mendefinisikan dokumen ini sebagai HTML5
+- </html> : elemen root dari halaman HTML
+- </head> : berisi informasi meta tentang dokumen
+- </title> : menentukan judul untuk dokumen di browser
+- </body> : berisi konten halaman yang terlihat di browser
 
-- <div> : menandakan sekelompok elemen, biasanya akan berisi elemen lain
-- <heading> : h1 - h6 : hasil beda-beda
-- <p> : paragraf
-- <strong> : teks jadi bold
-- <em> : italic
+- </div> : menandakan sekelompok elemen, biasanya akan berisi elemen lain
+- </heading> : h1 - h6 : hasil beda-beda
+- </p> : paragraf
+- </strong> : teks jadi bold
+- </em> : italic
 - </s> : garis kecoret
 - </u> : underline
 - </br/> : pindah ke baris baru
