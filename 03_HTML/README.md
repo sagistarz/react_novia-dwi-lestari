@@ -35,33 +35,33 @@ HTML selalu menggunakan tag untuk membangun website
 - <p> : paragraf
 - <strong> : teks jadi bold
 - <em> : italic
-- <s> : garis kecoret
-- <u> : underline
-- <br/> : pindah ke baris baru
-- <a> : link (jika di klik maka akan mengarahkan ke halama tertentu) digunakan href : kemana kita akan tertuju jika kita klik.
+- </s> : garis kecoret
+- </u> : underline
+- </br/> : pindah ke baris baru
+- </a> : link (jika di klik maka akan mengarahkan ke halama tertentu) digunakan href : kemana kita akan tertuju jika kita klik.
 href itu kalo dipencet akan kebuka link nya di tab itu juga.
 pertanyaan : gimana kalo kita mau buka link tersebut di new tab? tambahkan atribut <target="_blank">
 contoh : <a href="http://www.alterra.id" target="_blank"></a>
 
-- <img> : menampilkan gambar pada web
+- </img> : menampilkan gambar pada web
 ada 2 cara : pake link atau pake file dari local
 alt : untuk alternatif kalo file kita ga valid. jadi kalo gambar gamuncul, alt (teks) ini yang akan muncul
 
 - list
 ada 2 jenis list : 
-1. ordered list <ol>
-2. unordered list <ul>
+1. ordered list </ol>
+2. unordered list </ul>
 
 tiap item pada <ol> atau <ul> itu digunain tag <li> dulu sebelumnya
 
 - table
-- <table> : bikin table pada HTML
-- <tr> : table untuk baris
-- <td> : table untuk kolom
-- <th> : table untuk kolom pada header
+- </table> : bikin table pada HTML
+- </tr> : table untuk baris
+- </td> : table untuk kolom
+- </th> : table untuk kolom pada header
 
 - form : untuk membuat formulir
-- <form> -> hasil tergantung input type (text/password/email/radio/dll)
+- </form> -> hasil tergantung input type (text/password/email/radio/dll)
 
 - fieldset : membuat kelompok dari inputan
 - legend : informasi tentang judul
