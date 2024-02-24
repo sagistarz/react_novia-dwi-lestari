@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Product</title>
+  </head>
+  <body>
+    <div>
+      <h1>Create Product</h1>
+      <h2>Detail Product</h2>
+    </div>
+    <div class="class">
+      <form action="">
+        <section>
+          <label for="product_name">Product name :</label><br />
+          <input type="text" id="product_name" name="product_name" /><br /><br />
+        </section>
+
+        <section>
+          <label for="product_cat">Product Category :</label><br />
+          <select name="product_cat" id="product_cat">
+            <optgroup label="">
+              <option value="blank"></option>
+            </optgroup>
+          </select>
+        </section>
+
+        <br />
+
+        <section>
+          <label for="product_fresh">Product Freshness :</label><br />
+          <input type="radio" id="product_fresh" name="product_fresh" />
+          <label for="product_fresh">Brand New</label><br />
+          <input type="radio" id="product_fresh" name="product_fresh" />
+          <label for="product_fresh">Second Hank</label><br />
+          <input type="radio" id="product_fresh" name="product_fresh" />
+          <label for="product_fresh">Refurbished</label><br /><br />
+        </section>
+
+        <section>
+          <label for="myfile">Image of Product</label>
+          <input type="file" id="myfile" name="myfile" /><br /><br />
+        </section>
+
+        <section>
+          <label for="addDesc">Additional Description</label><br />
+          <textarea name="comment" form="usrform"> </textarea><br /><br />
+        </section>
+
+        <section>
+          <label for="price">Product price :</label><br />
+          <button type="button" style="background-color: white">$100</button><br /><br />
+          <button type="button">Submit</button>
+        </section>
+      </form>
+    </div>
+  </body>
+</html>
