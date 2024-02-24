@@ -19,7 +19,7 @@ LINK GOOGLE DOCS : https://docs.google.com/document/d/1NS6IyKUfki6yNWkefKD29c0P0
 
 **Soal Prioritas 2 (Nilai 20)**
 1. Tuliskan 10 hal yang harus dipahami seorang front end developer berdasarkan roadmap.sh ?
-   - **Jawab**
+- **Jawab**
 - Internet
 - HTML
 - CSS
