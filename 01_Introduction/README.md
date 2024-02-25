@@ -1,63 +1,61 @@
-#FE Intoduction
+# FE Intoduction
 
-FE developer : developer aplikasi di sisi tampilan/client-side (yang dilihat oleh end user)
-skills : html, css, javascript, dll
+FE developer merupakan developer aplikasi di sisi tampilan/client-side (yang dilihat oleh end user)
+Skills yang dibutuhkan : html, css, javascript, dll
 
-tugas FE dev 
-1. mengembangkan tampilan aplikasi di client-side agar nyaman di akses oleh user
-2. acuan dalam mengembangkan tampilan dari tim UI/UX (implementasi hasil desain ke dalam tampilan aplikasi)
+**Tugas FE dev**
+1. Mengembangkan tampilan aplikasi di client-side agar nyaman di akses oleh user
+2. Acuan dalam mengembangkan tampilan dari tim UI/UX (implementasi hasil desain ke dalam tampilan aplikasi)
 
-cara memulai -> ikutin roadmap di roadmap.sh
+**Simple tips untuk menjadi seorang FE dev**
+- Mulai dengan project
+- Jangan takut error
+- Gunakan teknologi populer
+- Ikuti course/tutorial
+- Mulai dunia IT dengan magang
+- Jangan dihafal tapi dipahami
+- Have fun and enjoy your trip
 
-Simple tips
-- mulai dengan project
-- jangan takut error
-- gunakan teknologi populer
-- ikuti course/tutorial
-- mulai dunia IT dengan magang
-- jangan dihafal tapi dipahami
-- have fun and enjoy your trip
+## Internet
+international network : jaringan komputer yang sangat besar yang terdiri dari jaringan jaringan kecil yang saling terhubung
 
-Internet
-international network : jaringan komputer yang sangatbesar yang terdiri dari jaringan jaringan kecil yang saling terhubung
+**IP address dan domain name**
+- IP address : alamat IP komputer untuk membuka web berdasarkan nama domain nya (isinya angka-angka)
+- Domain name : nama yang bisa dipahami oleh manusia 
+- DNS : menerjemahkan alamat domain menjadi alamat IP yang dapat dipahami oleh komputer
 
-IP address dan domain name
-IP address : alamat IP komputer untuk membuka web berdasarkan nama domain nya (isinya angka-angka)
-Domain name : nama yang bisa dipahami oleh manusia 
-
-Gimana cara client terhubung dengan internet?
+**Gimana cara client terhubung dengan internet?**
 1. menggunakan ISP
 2. WiFi
 3. Jaringan fiber bawah laut
 
-DNS : menerjemahkan alamat domain menjadi alamat IP yang dapat dipahami oleh komputer
-
-Protokol HTTP di URL
+**Protokol HTTP**
 cara kerja HTTP
-1. HTTP method : get (from client), post (from server) (hasil respons berupa alamat web)
+HTTP method : get (from client), post (from server) (hasil respons berupa alamat web)
 
-Browser developer : 
-network : melihat alur jaringan
-local stirage : melakukan debugging atau lainnya
+**Browser developer :** 
+- Network : melihat alur jaringan
+- Local storage : melakukan debugging atau lainnya
 
-HTML, css, dan javascript
-html : membangun kerangka
-css : mengatur tampilan
-js : halaman menjadi inteaktif
+**Kegunaan dari bahasa pemrograman untuk membangun web**
+- HTML : membangun kerangka
+- CSS : mengatur tampilan
+- JS : halaman menjadi inteaktif
 
-Markup language : bahasa yang digunakan untuk mengatur struktur tampilan (menyusun struktur konten)
-Programming language : bahasa yang digunakan untuk interaksi dengan komputer
+**Markup language** : bahasa yang digunakan untuk mengatur struktur tampilan (menyusun struktur konten)
+**Programming language** : bahasa yang digunakan untuk interaksi dengan komputer
 
-Hosting/deployment : agar aplikasi lokal dapat diakses dengan umum
+**Hosting/deployment** : agar aplikasi lokal dapat diakses dengan umum
 
-Version control :
-- git : tools untuk mengelola repo di lokal
-- github : layanan untuk publish repo kita (for collaboration)
+**Version control** :
+- Git : tools untuk mengelola repo di lokal
+- Github : layanan untuk publish repo kita (for collaboration)
 
-Cara ningkatin web security
-- gunain library versi terbaru
-- tulis kode program sesuai standar
+**Cara ningkatin web security**
+- Gunain library versi terbaru
+- Tulis kode program sesuai standar
 
-Package manager : layanan untuk mengelola library yang kita miliki (install package tambahan)
+**Package manager**
+merupakan layanan untuk mengelola library yang kita miliki (install package tambahan)
 - npm  
 - yarn
