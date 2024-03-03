@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="./soalPrioritas02.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- ROBOTO FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+
+    <title>05 Prioritas 2</title>
+  </head>
+  <body>
+    <section class="container-fluid" style="box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1)">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="#">Simple header</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link active text-primary dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Active </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Option 1</a></li>
+                  <li><a class="dropdown-item" href="#">Option 2</a></li>
+                  <li><a class="dropdown-item" href="#">Option 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" aria-current="page" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" href="#">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <div class="head">
+      <div class="logo text-center mb-3 mt-5">
+        <img src="./bootstrap-logo.svg.svg" alt="logo_bootstrap" />
+      </div>
+
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <h3 class="mb-2">Create Product</h3>
+            <p>
+              Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a <br />
+              validation state that can be triggered by attempting to submit the form without completing it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-6 my-5">
+          <section class="detail-product">
+            <h4>Detail Product</h4>
+          </section>
+
+          <section class="product-name">
+            <label for="productName" class="form-label">Product name</label>
+            <input type="text" id="productName" class="form-control is-valid" style="width: 18rem" required />
+          </section>
+
+          <section class="product-category" aria-required="true" style="width: 14rem">
+            <label for="productCategory" class="form-label">Product category</label>
+            <select class="form-select me-3">
+              <option value="">Choose...</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+            </select>
+          </section>
+
+          <section class="img-product" aria-required="true">
+            <form>
+              <div class="custom-file">
+                <label for="customFile" class="form-label">Image of Product</label>
+                <section>
+                  <input type="file" class="custom-file-input" id="customFile" required />
+                  <label class="custom-file-label" for="customFile"></label>
+                </section>
+              </div>
+            </form>
+          </section>
+
+          <section aria-required="true">
+            <label for="product_fresh">Product Freshness :</label><br />
+            <input type="radio" id="product_fresh" name="product_fresh" />
+            <label for="product_fresh">Brand New</label><br />
+            <input type="radio" id="product_fresh" name="product_fresh" />
+            <label for="product_fresh">Second Hank</label><br />
+            <input type="radio" id="product_fresh" name="product_fresh" />
+            <label for="product_fresh">Refurbished</label><br /><br />
+          </section>
+
+          <section class="additionalDesc">
+            <label for="additionalDesc" class="form-floating">Additional Description</label>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 150px" required></textarea>
+              <label for="floatingTextarea"></label>
+            </div>
+          </section>
+
+          <section>
+            <label for="productPrice" class="form-label">Product Price</label>
+            <input type="text" class="form-control" id="productPrice" aria-describedby="priceHelp" placeholder="$1" required />
+          </section>
+
+          <section class="submit-btn text-center">
+            <input class="btn btn-primary" type="submit" value="Submit" style="width: 80%; margin: 4rem 0rem 2rem 0rem" required />
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
