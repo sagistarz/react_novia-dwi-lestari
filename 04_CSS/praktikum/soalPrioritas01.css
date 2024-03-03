@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #37517e;
+  color: white;
+  font-family: "Jost";
+}
+header {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+}
+.cont-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0rem 1.5rem;
+  margin: 5rem 3rem;
+}
+.cont-text {
+  justify-content: center;
+}
+.main-judul h1 {
+  font-size: 3rem;
+}
+.main-judul p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  opacity: 60%;
+}
+.btn {
+  display: flex;
+  gap: 1.56rem;
+  margin-top: 40px;
+}
+.btn .btn-start button {
+  background-color: #47b2e4;
+  padding: 0.65rem 1.75rem;
+  border-radius: 3.125rem;
+  color: white;
+  border: none;
+}
+.btn .btn-watch button {
+  background-color: #37517e;
+  padding: 0.65rem 1.75rem;
+  border-radius: 3.125rem;
+  color: white;
+  border: none;
+}
+.cont-logo img {
+  width: 39.75rem;
+  height: 32.9375rem;
+}
+.cont-news {
+  text-align: center;
+  background-color: #f3f5fa;
+  padding: 3.12rem 26.62rem;
+}
+.newsTitle h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #37517e;
+}
+.newsTitle label {
+  color: #444444;
+}
+.inputSubs input {
+  width: 32.25rem;
+  height: 2.5rem;
+  border-radius: 3rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+.inputSubs button {
+  background-color: #47b2e4;
+  height: 2.6rem;
+  border: none;
+  border-radius: 3rem;
+  padding: 0.3rem 1.25rem;
+  color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: -2rem;
+}
+.social {
+  padding: 3.75rem 5rem 4.5rem 5rem;
+  background-color: #ffff;
+  color: #37517e;
+}
+.social .col {
+  display: flex;
+  justify-content: space-between;
+  gap: 7rem;
+}
+.listLink {
+  display: flex;
+  flex-direction: column;
+  gap: 0.62rem;
+}
+.listLink a {
+  text-decoration: none;
+  color: #777;
+}
+.listService {
+  display: flex;
+  flex-direction: column;
+  gap: 0.62rem;
+}
+.listService a {
+  text-decoration: none;
+  color: #777;
+}
+.row-1,
+.row-2 {
+  color: #5e5e5e;
+}
+.col-4 p {
+  color: #5e5e5e;
+  margin-bottom: 1.06rem;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 5rem;
+}
