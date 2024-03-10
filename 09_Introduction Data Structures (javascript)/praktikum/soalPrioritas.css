@@ -1,0 +1,17 @@
+* {
+    font-family: "Roboto", sans-serif;
+  }
+  .col-6 section {
+    margin-bottom: 2rem;
+  }
+  .navbar-nav a{
+    margin-right: 1rem;
+  }
+  .navbar-nav a:hover{
+    background-color: #0D6EFD !important;
+    color: white !important;
+    border-radius: 5px;
+    transform: scale(1.05);
+  }
+  
+  
