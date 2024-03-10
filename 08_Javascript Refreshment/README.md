@@ -114,7 +114,7 @@
 	Function di dalam JS adalah sebuah object karena mmeiliki properti dan juga method
     Digunakan untuk melakukan serangkaian komputasi/prosedur yang dapat digunakan berulang kali
 
-8. Class
+**8. Class**
 	Class 
 	Adalah prototpe dari suatu object yang akan kita buat
 	
