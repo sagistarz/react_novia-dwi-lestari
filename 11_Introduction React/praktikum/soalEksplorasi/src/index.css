@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color:rgb(212, 238, 224); /* Warna abu-abu yang lebih gelap */
+}
