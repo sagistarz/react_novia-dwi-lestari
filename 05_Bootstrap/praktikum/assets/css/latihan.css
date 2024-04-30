@@ -1,0 +1,24 @@
+a {
+  color: grey !important;
+  text-decoration: none !important;
+}
+a:hover {
+  color: green !important;
+}
+.text-welcome {
+  color: #71c55d;
+  margin-top: 100px !important;
+  /* ini artinya kalo font philosopher nya gak ketemu, kita pake font sans serif */
+  font-family: "Philosopher", sans-serif;
+}
+.content-main-bg {
+  height: calc(90vh);
+  background: url(../img/comp.jpg) bottom no-repeat;
+  background-size: 100%;
+}
+.background-color{
+  background-color: aliceblue;
+}
+#contact p{
+  display: inline-block;
+}
